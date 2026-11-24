@@ -27,6 +27,7 @@ Platforms that let a business send and receive iMessage on dedicated or shared l
 - [Project Blue](https://tryprojectblue.com) - White-glove iMessage for GoHighLevel agencies, with sub-account reselling.
 - [Linq](https://linqapp.com) - iMessage API for AI assistant companies, alongside the Linq Blue sales product.
 - [Miss Blue](https://missblue.dev) - Shared team inbox plus an iMessage API.
+- [Keiki](https://onkeiki.com) - Puts a company's AI agent on iMessage, with WhatsApp, Slack, Telegram, email and calls on the same agent; shared team inbox with human takeover, Face ID approvals and Apple Pay in the thread.
 
 ## Developer SDKs and clients
 
@@ -35,11 +36,14 @@ Platforms that let a business send and receive iMessage on dedicated or shared l
 - [bluereacher-cli](https://github.com/Blue-Reacher/bluereacher-cli) - Send iMessage from your terminal. Zero-dependency CLI.
 - [bluereacher-openapi](https://github.com/Blue-Reacher/bluereacher-openapi) - Public OpenAPI 3.1 spec for the Blue Reacher API, browsable via Redoc.
 - [bluereacher-examples](https://github.com/Blue-Reacher/bluereacher-examples) - Runnable recipes: lead reactivation, booking reminders, an AI coding agent iMessage channel.
+- [@onkeiki/agents](https://www.npmjs.com/package/@onkeiki/agents) - TypeScript SDK to declare an agent in code and run it on Keiki (`kit.sync()`) or on your own infrastructure (`kit.serve()`).
+- [Mail-0/labs](https://github.com/Mail-0/labs) - Runnable Keiki agent examples: iMessage store orders, appointment booking, customer support, an AI SDK agent and an MCP server on iMessage.
 
 ## AI agents and MCP
 
 - [bluereacher-mcp](https://github.com/Blue-Reacher/bluereacher-mcp) - Model Context Protocol server so AI agents (Claude, Cursor and any MCP client) can send iMessage and read replies.
 - [Blue Reacher hosted MCP](https://docs.bluereacher.com) - The same MCP surface hosted at the API edge (`POST /v1/mcp`), no local server needed.
+- [Keiki MCP](https://onkeiki.com/developers) - Hosted MCP endpoint (`https://onkeiki.com/mcp`, OAuth) for building, testing and launching iMessage agents from Claude, Cursor or any MCP client.
 
 ## Automation and no-code
 
